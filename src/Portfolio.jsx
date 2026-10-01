@@ -168,8 +168,8 @@ const PROJECTS = [
     name: "ChatMate",
     year: "2026",
     blurb:
-     " Movie & TV discovery app built with React, TMDB API, Swiper, Clerk for User Management, and React Router — featuring genre filters, carousels, and dynamic routing.",
-    tech: "JavaScript - ReactJS - ReduxToolkit- Clerk - Swiper Js - React Router - IMDB API",
+     "ChatMate is a responsive AI-powered chat application built with React and Tailwind CSS. It integrates Google's Gemini API to deliver real-time, intelligent conversational responses with full Markdown rendering support for formatted text, lists, and code blocks.",
+    tech: "JavaScript - ReactJS - GeminiApi - TailwindCss",
     repo: "https://github.com/uroojismail48/ChatMate",
     demo: "chat-mate-peach.vercel.app",
   },
@@ -188,8 +188,8 @@ const PROJECTS = [
 
 const SKILL_ROW_1 = [
   "HTML",
-  "CSS"
-"JavaScript"{}
+  "CSS",
+"JavaScript",
   "React JS",
   "Redux Toolkit",
  "Next JS",
@@ -291,7 +291,7 @@ export default function Portfolio() {
       {/* -------- nav -------- */}
       <header className="nav">
         <button className="nav-logo" onClick={() => scrollTo("top")}>
-          UROOJ<span className="nav-logo-dot">.</span>
+          UROOJ Ismail<span className="nav-logo-dot">.</span>
         </button>
         <nav className="nav-links">
           {["about", "work", "skills", "contact"].map((id) => (
