@@ -1,8 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import { ArrowUpRight, Mail, Download } from "lucide-react";
 
-/* lucide-react dropped brand/logo icons (Github, Twitter, etc.) in recent
-   versions due to trademark concerns — using a local inline SVG instead. */
+
 function GithubIcon({ size = 18, ...rest }) {
   return (
     <svg
@@ -156,41 +155,57 @@ const PROJECTS = [
   },
   {
     idx: "02",
-    name: "Cosmic Store",
-    year: "2025",
+    name: "CineFlex",
+    year: "2026",
     blurb:
-      "A front-end ecommerce storefront built from scratch — product browsing, cart interactions, and a clean checkout flow in vanilla JS.",
-    tech: "HTML — CSS — JavaScript",
-    repo: "https://github.com/uroojismail48/Cosmic-store-ECOMMERCE",
-    demo: "https://uroojismail48.github.io/Cosmic-store-ECOMMERCE/",
+     " Movie & TV discovery app built with React, TMDB API, Swiper, Clerk for User Management, and React Router — featuring genre filters, carousels, and dynamic routing.",
+    tech: "JavaScript - ReactJS - ReduxToolkit- Clerk - Swiper Js - React Router - IMDB API",
+    repo: "https://github.com/uroojismail48/CineFlex",
+    demo: "cine-flex-iota.vercel.app",
+  },
+    {
+    idx: "03",
+    name: "ChatMate",
+    year: "2026",
+    blurb:
+     " Movie & TV discovery app built with React, TMDB API, Swiper, Clerk for User Management, and React Router — featuring genre filters, carousels, and dynamic routing.",
+    tech: "JavaScript - ReactJS - ReduxToolkit- Clerk - Swiper Js - React Router - IMDB API",
+    repo: "https://github.com/uroojismail48/ChatMate",
+    demo: "chat-mate-peach.vercel.app",
   },
   {
-    idx: "03",
-    name: "Festiveo",
-    year: "2025",
+    idx: "04",
+    name: "ClarityLens",
+    year: "2026",
     blurb:
-      "A multi-page festival discovery platform — browse national festivals and detail pages, explore a gallery, manage membership, and connect through contact and feedback flows, with login/register included.",
-    tech: "HTML — CSS — JavaScript",
-    repo: "https://github.com/uroojismail48/festiveo",
-    demo: null,
+      "AI-powered image enhancer built with React, using the PicWish API to automatically improve brightness, sharpness, and color balance of photos.",
+    tech: "JavaScript - ReactJS - TailwindCss - PicWishApi -",
+    repo: "https://github.com/uroojismail48/Pixora",
+    demo: "pixora-ten-rosy.vercel.app",
   },
+
 ];
 
 const SKILL_ROW_1 = [
-  "React",
+  "HTML",
+  "CSS"
+"JavaScript"{}
+  "React JS",
   "Redux Toolkit",
+ "Next JS",
   "TypeScript",
-    "JavaScript",
+    "Bootstrap",
   "Tailwind CSS",
-
+  "React Router",
+  "Tanstack Query(React Query)"
 ];
 const SKILL_ROW_2 = [
   "Laravel",
   "PHP",
   "MySQL",
-  "Git",
+  "Git/Github",
   "REST APIs",
-  
+  "Axios"
 ];
 
 export default function Portfolio() {
@@ -422,7 +437,7 @@ export default function Portfolio() {
                         enterCursor("LIVE DEMO");
                       }}
                     >
-                      Live demo
+                      Live 
                     </a>
                   )}
                   <ArrowUpRight size={22} className="work-arrow" />
